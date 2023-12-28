@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp6.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>SLTools.Util.Quickfix</PackageId>
+        <Version>1.4.4</Version>
+        <Authors>SLTools Developers Team</Authors>
+        <Company>SLTools Serviços de Informações LTDA</Company> 
+        <Description>
+            This library works as an interface for the Quickfix API Sltools.
+        </Description>       
+    </PropertyGroup>
+    <ItemGroup>
+        <Folder Include="Config\" />
+    </ItemGroup>
+</Project>
